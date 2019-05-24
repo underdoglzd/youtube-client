@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(52, 61, 70);
+}
+
+.container {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.youtube-input {
+    margin-top: 30px;
+    width: 340px;
+    height: 20px;
+    margin-left: 41%;
+}
+
+.cards {
+  position: relative;
+  background-color: white;
+  width: 350px;
+  height: 500px;
+}
+
+.card-title {
+  background-color: rgba(0, 99, 43, 0.7);
+  position: absolute;
+  top: 100px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+}
+
+.card-name {
+  color: white;
+}
+
+.card-img {
+  margin: 15px;
+}
+
+.card-text {
+  margin: 15px;
+  font-size: 22px;
+}
+
+.card-desc {
+  margin: 15px;
+  height: 130px;
+  font-style: italic;
+  overflow-y: scroll;
+}
+
+.carousel {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+}
